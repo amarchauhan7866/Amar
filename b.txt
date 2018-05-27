@@ -1,1 +1,2 @@
 "This is VCS:Git"
+"This is ninja Branch"

@@ -1,0 +1,5 @@
+#!/bin/bash
+Redhat="Opstree"
+echo $Redhat ", Hello"
+echo "Hello, " $Redhat"
+echo -e "Hello , $Redhat \n How r u ? "

@@ -1,0 +1,10 @@
+#!/bin/bash
+echo "Enter a UserName"
+read username
+exists=$( cat /etc/passwd | grep $username | sed -e 's/:.*//g' )
+if [ -z "$exists" ]
+then useradd  $username
+echo "User addes Successfully"
+else
+echo "User is already present"
+fi
